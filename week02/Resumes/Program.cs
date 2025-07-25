@@ -1,4 +1,9 @@
 using System;
+// I exceeds the basic requirements by:
+// - Including multiple creative and meaningful prompts (more than the minimum five)
+// - Saving and loading journal entries to a text file with clear formatting
+// - Organizing the code into separate classes (PromptGenerator, Entry, Journal) to make it easier to understand and manage
+
 
 class Program
 {
