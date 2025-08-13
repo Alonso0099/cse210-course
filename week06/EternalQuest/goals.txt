@@ -1,0 +1,5 @@
+300
+NegativeGoal,Skip read srciptures,I sckiped reading scriptures yesterday,50
+NegativeGoal,ate junk food,ate chips,50
+ChecklistGoal,House Work,Paint one room in the house,350,3,1,1000
+NegativeGoal,Video Games,Lost time playing video games,100
