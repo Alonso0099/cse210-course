@@ -98,7 +98,7 @@ public class GoalManager
             }
 
             Console.WriteLine("Goals loaded from file.");
-            DisplayGoals(); // "show goals after loading"
+            DisplayGoals(); 
         }
         catch
         {

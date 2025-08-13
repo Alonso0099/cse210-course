@@ -1,7 +1,6 @@
 // A goal that never ends. You get points every time you do it.
 public class EternalGoal : Goal
 {
-    // "constructor"
     public EternalGoal(string name, string desc, int points)
         : base(name, desc, points)
     {

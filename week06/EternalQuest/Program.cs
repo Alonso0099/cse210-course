@@ -7,8 +7,6 @@ class Program
         GoalManager manager = new GoalManager();
         string choice = "";
 
-        // "creative feature: NegativeGoal subtracts points"
-
         while (choice != "6")
 
         {
@@ -40,7 +38,7 @@ class Program
                     Console.Write("Type: ");
                     string type = Console.ReadLine();
 
-                    Console.Write("Name: ");
+                    Console.Write("Goal Titule: ");
                     string name = Console.ReadLine();
                     Console.Write("Description: ");
                     string desc = Console.ReadLine();
@@ -50,7 +48,7 @@ class Program
                     {
                         if (type == "1")
                         {
-                            Console.Write("Points: ");
+                            Console.Write("Points to earn: ");
                             int points = int.Parse(Console.ReadLine());
                             manager.AddGoal(new SimpleGoal(name, desc, points));
                         }
@@ -84,7 +82,7 @@ class Program
                         {
                             Console.WriteLine("Invalid type.");
                         }
-                        
+
                     }
                     catch
                     {
